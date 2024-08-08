@@ -122,7 +122,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
         rows.push(result)
     }
     let buttonMsg = {
-        "title": "إضغط هنا ",
+        "title": "إضغط هنا لعرض القائمة",
         "sections": [{
             "title": "List Menu",
             "highlight_label": "Popular",
@@ -217,9 +217,9 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
 						title: `إضغط هنا لمتابعة صانع البوت في حسابه `,
 						containsAutoReply: true,
 						mediaType: 1,
-						thumbnailUrl: `https://telegra.ph/file/b306e14fc211f1e47875a.jpg`,
+						thumbnailUrl: `https://telegra.ph/file/a3c46a046e6ce31623676.mp4`,
 						mediaUrl: ``,
-						sourceUrl: "https://instagram.com/noureddine_ouafy",
+						sourceUrl: "https://www.instagram.com/_mk4_fr?igsh=NGh0a2Q3MXRpbnN5",
 					},
 				},
 			},
@@ -228,7 +228,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu)$/i
+handler.command = /^(menu|اوامر|المهام|الاوامر|m|help)$/i
 handler.register = true
 export default handler
 
